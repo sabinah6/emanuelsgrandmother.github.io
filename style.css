@@ -1,0 +1,84 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #7e00e6, 0 0 40px #9500e6, 0 0 50px #ffffff, 0 0 60px #9d00e6, 0 0 70px #a64dff;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #870fff, 0 0 40px #c14dff, 0 0 50px #944dff, 0 0 60px #a64dff, 0 0 70px #a64dff, 0 0 80px #bb00ff;
+  }
+}
+
+
+
+body{
+  background-color: #c2edff;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.facts{
+  display:flex;
+  justify-content: center; 
+  width: 1500px;
+  padding: 4px;
+  margin: 10px;
+  border: 2px double black;
+}
+.morefacts{
+  width: 300px;
+  border: 15px solid black;
+  border-width: 20px;
+  padding: 50px;
+  margin: 10px 10px;
+}
+.facts:hover, .morefacts:hover{
+  border: 5px solid white;
+}
+
+.item:hover{
+  opacity: 0.5;
+  border: 1px solid black;
+}
+.pentagon:hover{
+  border: 2px dotted black;
+}
+a{
+  text-decoration: none;
+  color: #ff0a23;
+  background-color: white;
+}
+
+.thepicture{
+  width: 300px;
+  border: 15px solid #6600ff;
+  border-width: 20px;
+  padding: 40px;
+  margin: 50px 20px;
+}
+
+p{
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.desc{
+  background-color: white;
+  border: 1px double black;
+  width: 800px;
+}
